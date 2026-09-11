@@ -30,7 +30,6 @@ document.querySelectorAll<HTMLAnchorElement>('[data-language]').forEach(link => 
 
 const intro = document.querySelector<HTMLElement>('.intro');
 if (intro) {
-  try { sessionStorage.setItem('traver-intro', '1'); } catch { /* Intro still works without storage. */ }
   // The CSS animation completes independently if JavaScript fails.
   const dismiss = () => intro.remove();
   window.addEventListener('keydown', dismiss, { once: true });

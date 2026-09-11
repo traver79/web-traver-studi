@@ -110,7 +110,7 @@ El formulario valida nombre, email, servicio y mensaje, y prepara un `mailto:` a
 - Composición y responsive: `src/styles/global.css`. Los breakpoints de 48rem y 64rem están documentados en tokens y se expresan de forma literal en media queries porque CSS no permite variables en sus condiciones.
 - Fuente actual: **Inter Tight Variable**, autoalojada, licencia OFL. Para cambiarla, instalar una fuente con licencia web o añadir WOFF2 propios, modificar su importación en `BaseLayout.astro` y `--font-body`.
 - Marca: `public/brand/logo.svg` y `logo-inverse.svg`, copias de los SVG suministrados, intactos. No reconstruir ni rasterizar para su uso en la página.
-- Intro: `Intro.astro`, reglas `.intro*` y variables `--intro-*`. Corte horizontal entre nombre y subtítulo, apertura hacia arriba/abajo. `--intro-logo-cut` sitúa el corte sin alterar el SVG. CSS y `client.ts` resuelven movimiento reducido y repetición por sesión.
+- Intro: `Intro.astro`, reglas `.intro*` y variables `--intro-*`. Corte horizontal entre nombre y subtítulo, apertura hacia arriba/abajo. `--intro-logo-cut` sitúa el corte sin alterar el SVG. CSS y `client.ts` resuelven movimiento reducido y repetición al volver a Home.
 
 Consultar `docs/DESIGN.md` para la investigación de la referencia, decisiones y procedencia de contenidos.
 
@@ -151,4 +151,4 @@ Para otro dominio o repositorio, modificar `site`/`base` en `astro.config.mjs` y
 
 ## Antes de lanzamiento definitivo
 
-Ver `docs/CONTENT-STATUS.md`. Revisar redacción, traducciones, alcance comercial y ciudad/año/tipo/créditos de Calle Mallorca. Añadir Instagram cuando exista. Para envío directo del formulario hay que conectar un servicio; ahora prepara un correo o copia la consulta. Incorporar información legal adaptada antes del lanzamiento comercial. No hay analítica ni cookies de terceros; solo se guardan preferencia de idioma e intro de sesión.
+Ver `docs/CONTENT-STATUS.md`. Revisar redacción, traducciones, alcance comercial y ciudad/año/tipo/créditos de Calle Mallorca. Añadir Instagram cuando exista. Para envío directo del formulario hay que conectar un servicio; ahora prepara un correo o copia la consulta. Incorporar información legal adaptada antes del lanzamiento comercial. No hay analítica ni cookies de terceros; solo se guarda la preferencia de idioma.

@@ -28,7 +28,7 @@ const structured={ '@context':'https://schema.org', '@type':'ProfessionalService
     <link rel="icon" type="image/svg+xml" href={withBase('brand/logo.svg')}/>
     {noindex && <meta name="robots" content="noindex,follow"/>}
     <script is:inline type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>
-    <script is:inline>document.documentElement.classList.add('js');try{if(sessionStorage.getItem('traver-intro'))document.documentElement.classList.add('intro-seen')}catch{}</script>
+    <script is:inline>document.documentElement.classList.add('js');</script>
   </head>
   <body id="top">
     <Header lang={lang} page={page} links={links}/>
