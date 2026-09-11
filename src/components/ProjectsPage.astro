@@ -1,0 +1,8 @@
+---
+import type {CollectionEntry} from 'astro:content';import ProjectCard from './ProjectCard.astro';import {copy,type Lang} from '../utils/i18n';
+interface Props {lang:Lang;projects:CollectionEntry<'projects'>[];}
+const {lang,projects}=Astro.props;const t=copy[lang];
+const examples={es:{title:'Proyecto de ejemplo',note:'Espacio reservado · Proyecto ficticio',image:'Fotografía pendiente'},ca:{title:'Projecte d’exemple',note:'Espai reservat · Projecte fictici',image:'Fotografia pendent'},en:{title:'Example project',note:'Reserved space · Fictional project',image:'Photograph pending'}}[lang];
+---
+<section class="page-head section-pad"><p class="label">TRAVER STUDI · {String(projects.length).padStart(2,'0')}</p><h1 class="display-large">{t.projects.title}</h1><p class="body-large">{t.projects.intro}</p></section>
+<section class="section-pad project-list"><div class="project-grid">{projects.map((p,i)=><ProjectCard project={p} lang={lang} index={i}/>)}{[2,3].map(number=><article class="project-card project-placeholder"><div class="project-card-image"><span aria-hidden="true">{String(number).padStart(2,'0')}</span><p class="label">{examples.image}</p></div><div class="project-card-caption"><span class="label">{String(number).padStart(2,'0')}</span><h2>{examples.title} {number}</h2><span class="label">{examples.note}</span></div></article>)}</div></section>

@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Inici",
+    "projects": "Projectes",
+    "studio": "Estudi",
+    "services": "Serveis",
+    "contact": "Contacte"
+  },
+  "ui": {
+    "menu": "Menú",
+    "close": "Tancar",
+    "skip": "Saltar al contingut",
+    "language": "Idioma",
+    "viewProject": "Veure el projecte",
+    "allProjects": "Tots els projectes",
+    "selectedProjects": "Projecte seleccionat",
+    "discover": "Descobrir l’estudi",
+    "explore": "Explorar",
+    "back": "Tornar als projectes",
+    "next": "Projecte següent",
+    "gallery": "El projecte en imatges",
+    "openImage": "Ampliar la imatge",
+    "previousImage": "Imatge anterior",
+    "nextImage": "Imatge següent",
+    "image": "Imatge",
+    "of": "de",
+    "pending": "Pendent de confirmar",
+    "location": "Ubicació",
+    "year": "Any",
+    "type": "Tipus",
+    "credits": "Fotografia",
+    "details": "Fitxa del projecte",
+    "top": "Tornar a dalt",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "address": "Adreça",
+    "notFound": "Aquesta pàgina no existeix.",
+    "returnHome": "Tornar a l’inici"
+  },
+  "home": {
+    "title": "Interiorisme mediterrani contemporani",
+    "description": "TRAVER STUDI. Interiorisme mediterrani contemporani. Calma, llum, matèria i llar. Descobreix el nostre estudi i el projecte Carrer Mallorca.",
+    "eyebrow": "Interiorisme mediterrani contemporani",
+    "heading": "Espais per viure a poc a poc.",
+    "intro": "Crear llars i espais que millorin el dia a dia amb un disseny honest, lluminós i arrelat a la matèria.",
+    "projectNote": "Una mirada a l’espai, del dia a dia al detall.",
+    "servicesTitle": "Dissenyar des de la matèria."
+  },
+  "studio": {
+    "title": "L’estudi",
+    "description": "TRAVER STUDI, estudi d’interiorisme fundat a Barcelona el 2026. Una nova mirada amb les arrels d’Instaltraver, des del 1976.",
+    "heading": "El teu espai comença escoltant-te.",
+    "lead": "Un estudi d’interiorisme a Barcelona. Una manera propera d’entendre cada projecte.",
+    "paragraphs": [
+      "TRAVER STUDI neix el 2026 amb una idea senzilla: cada espai comença per les persones que l’habiten. Escoltem les teves necessitats i donem forma a un projecte únic, pensat per a la teva manera de viure.",
+      "T’acompanyem des de les primeres idees fins al seguiment dels treballs: definim el projecte, t’assessorem en la tria de materials i acabats, i vetllem perquè cada decisió tingui sentit.",
+      "Si busques un estudi que t’escolti, t’assessori i et guiï, aquest és el teu lloc."
+    ],
+    "manifesto": [
+      "Dissenyem des de la calma.",
+      "Busquem la llum.",
+      "Respectem la matèria.",
+      "Creem llar."
+    ],
+    "values": [
+      {
+        "title": "Calma",
+        "text": "Equilibri, silenci visual i proporció."
+      },
+      {
+        "title": "Llum",
+        "text": "Claredat, amplitud i una atmosfera natural."
+      },
+      {
+        "title": "Matèria",
+        "text": "Pedra, lli, fusta i textures honestes."
+      },
+      {
+        "title": "Llar",
+        "text": "Espais pensats per viure-hi."
+      }
+    ],
+    "imageCaption": "Carrer Mallorca · detall de cuina",
+    "aboutTitle": "Sobre nosaltres",
+    "aboutHeading": "Una nova mirada. Una història compartida.",
+    "aboutIntro": "TRAVER STUDI és una marca d’Instaltraver. Un estudi nou, amb una història familiar que comença el 1976.",
+    "timeline": [
+      {
+        "year": "1976",
+        "title": "L’origen",
+        "text": "Jorge Traver Bellido i Margarita Hartelsberger Rolón funden Instaltraver a Barcelona. L’empresa comença com una lampisteria de barri i aviat incorpora les primeres reformes."
+      },
+      {
+        "year": "2019",
+        "title": "Una mirada des de l’interiorisme",
+        "text": "Nadia Traver s’hi incorpora després d’acabar els estudis d’interiorisme. La seva arribada aporta una nova sensibilitat al disseny dels espais i a la selecció de materials i acabats."
+      },
+      {
+        "year": "2022",
+        "title": "Disseny i coneixement tècnic",
+        "text": "Es constitueix Instaltraver S.L. i s’hi incorpora Jordi Traver, fill dels fundadors. La seva formació en enginyeria reforça el coneixement tècnic i el desenvolupament de les instal·lacions."
+      },
+      {
+        "year": "2026",
+        "title": "Neix TRAVER STUDI",
+        "text": "Després d’anys de reformes amb un enfocament cada vegada més centrat en l’interiorisme, neix TRAVER STUDI com a estudi propi. La marca conviu amb Instaltraver, dedicada a les instal·lacions: dos àmbits que comparteixen origen i experiència."
+      }
+    ]
+  },
+  "services": {
+    "title": "Serveis",
+    "description": "Assessorament SOS, disseny d’interiors, projecte complet i disseny de cuines DELTA. Descobreix com et pot acompanyar TRAVER STUDI.",
+    "heading": "D’una idea al teu espai.",
+    "lead": "Quatre maneres d’acompanyar-te, segons el moment del teu projecte.",
+    "notice": "",
+    "items": [
+      {
+        "title": "SOS · Una mirada experta",
+        "text": "Una sessió d’assessorament per aclarir dubtes i ajudar-te a decidir. Si tens una reforma en marxa, una distribució que no funciona o una tria d’acabats pendent, revisem amb tu la situació i t’orientem amb criteri professional.",
+        "details": [
+          "Revisió dels teus dubtes, plànols o fotografies.",
+          "Orientació sobre distribució, materials i acabats.",
+          "Recomanacions per definir els passos següents."
+        ],
+        "cta": "Consultar sobre SOS"
+      },
+      {
+        "title": "Disseny d’interiors",
+        "text": "Donem forma al teu espai a partir de com el vols viure. Estudiem les teves necessitats i desenvolupem una proposta de distribució, materials, il·luminació i mobiliari que uneixi funcionalitat i personalitat.",
+        "details": [
+          "Anàlisi de necessitats i de l’espai existent.",
+          "Proposta de distribució i concepte de disseny.",
+          "Assessorament en materials, acabats, il·luminació i mobiliari."
+        ],
+        "cta": "Dissenyar el meu espai"
+      },
+      {
+        "title": "Projecte complet",
+        "text": "T’acompanyem des de les primeres idees fins al seguiment de l’execució. Integrem el disseny d’interiors amb les necessitats tècniques del projecte perquè les decisions d’obra responguin a una mateixa visió.",
+        "details": [
+          "Definició del projecte d’interiorisme.",
+          "Selecció de materials i acabats.",
+          "Coordinació de les necessitats d’instal·lacions.",
+          "Acompanyament i seguiment dels treballs."
+        ],
+        "cta": "Parlar del meu projecte"
+      },
+      {
+        "title": "Cuines DELTA",
+        "text": "Dissenyem la teva cuina DELTA perquè s’adapti als teus hàbits, al teu espai i a la teva manera de cuinar. Treballem la distribució, l’emmagatzematge i els acabats per aconseguir una cuina còmoda i coherent amb la resta de la llar.",
+        "details": [
+          "Estudi de la distribució i les zones de treball.",
+          "Proposta de mobiliari i solucions d’emmagatzematge.",
+          "Selecció d’acabats i assessorament de disseny."
+        ],
+        "cta": "Dissenyar la meva cuina"
+      }
+    ],
+    "scope": "Definim amb tu l’abast i el pressupost abans de començar."
+  },
+  "contact": {
+    "title": "Contacte",
+    "description": "Visita’ns a Sant Antoni Maria Claret, 209, Barcelona. Contacta amb TRAVER STUDI a hola@traverstudi.cat o per telèfon i WhatsApp: 93 436 85 15.",
+    "heading": "Parlem del teu espai.",
+    "lead": "Explica’ns què tens al cap. T’escoltem.",
+    "notice": "",
+    "footerHeading": "El teu espai.\nComencem a imaginar-lo.",
+    "footerLink": "Parlem-ne",
+    "footerNote": "Interiorisme · Barcelona",
+    "mapLabel": "Com arribar-hi",
+    "whatsappLabel": "Escriure per WhatsApp",
+    "form": {
+      "title": "Explica’ns el teu projecte.",
+      "intro": "Omple la consulta i obre-la a la teva aplicació de correu per enviar-la a hola@traverstudi.cat.",
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "phone": "Telèfon (opcional)",
+      "service": "Com et podem ajudar?",
+      "select": "Selecciona una opció",
+      "message": "La teva idea, les teves necessitats, el teu espai",
+      "submit": "Preparar el correu",
+      "copy": "Copiar la consulta",
+      "privacy": "La consulta no s’envia des d’aquesta pàgina. Tu decideixes quan enviar-la des del teu correu.",
+      "ready": "Consulta preparada. Envia-la des de la teva aplicació de correu. Si no s’obre, pots copiar-la i escriure’ns directament.",
+      "copied": "Consulta copiada. Enganxa-la en un correu adreçat a hola@traverstudi.cat.",
+      "copyError": "No s’ha pogut copiar. Selecciona el text de la consulta o escriu-nos directament.",
+      "subject": "Consulta de projecte · TRAVER STUDI"
+    }
+  },
+  "projects": {
+    "title": "Projectes",
+    "description": "Projectes de TRAVER STUDI. Explora la galeria fotogràfica de Carrer Mallorca.",
+    "intro": "De l’espai al detall.",
+    "count": "Projecte",
+    "missingDescription": "Text del projecte pendent d’incorporar."
+  }
+}

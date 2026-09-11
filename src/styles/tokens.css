@@ -1,0 +1,40 @@
+:root {
+  --color-paper: #fff9f2;
+  --color-olive: #656440;
+  --color-ink: #3a3026;
+  --color-muted: #736c5d;
+  --color-sand: #d8ccba;
+  --color-line: color-mix(in srgb, var(--color-olive) 28%, transparent);
+  --font-body: 'Inter Tight Variable', 'Helvetica Neue', Arial, sans-serif;
+  --text-label: .875rem;
+  --text-body: clamp(1rem, 1.05vw, 1.125rem);
+  --text-large: clamp(1.125rem, 1.5vw, 1.5rem);
+  --display-small: clamp(1.65rem, 2.6vw, 2.75rem);
+  --display-medium: clamp(2.15rem, 4.5vw, 4.875rem);
+  --display-large: clamp(2.75rem, 6vw, 6.5rem);
+  --space-xs: .5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: clamp(3rem, 6vw, 6rem);
+  --section-space: clamp(5rem, 10vw, 10rem);
+  --gutter: clamp(1.25rem, 4vw, 5rem);
+  --header-gutter: clamp(1.25rem, 2.25vw, 3rem);
+  --grid-gap: clamp(1.25rem, 2.5vw, 3rem);
+  --max-width: 112rem;
+  --header-height: 5.5rem;
+  --time-fast: 200ms;
+  --time-normal: 600ms;
+  --time-slow: 1200ms;
+  --intro-hold: 1100ms;
+  --intro-open: 1450ms;
+  --intro-total: 2550ms;
+  --intro-logo-cut: 58%;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-curtain: cubic-bezier(.76, 0, .24, 1);
+  --breakpoint-mobile: 48rem;
+  --breakpoint-desktop: 64rem;
+}
+/* CSS custom properties cannot be used in media query conditions.
+   Responsive rules below use 48rem and 64rem, matching these design tokens. */

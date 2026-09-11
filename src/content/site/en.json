@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "studio": "Studio",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "ui": {
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "language": "Language",
+    "viewProject": "View project",
+    "allProjects": "All projects",
+    "selectedProjects": "Selected project",
+    "discover": "Discover the studio",
+    "explore": "Explore",
+    "back": "Back to projects",
+    "next": "Next project",
+    "gallery": "The project in photographs",
+    "openImage": "Enlarge image",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "image": "Image",
+    "of": "of",
+    "pending": "To be confirmed",
+    "location": "Location",
+    "year": "Year",
+    "type": "Type",
+    "credits": "Photography",
+    "details": "Project details",
+    "top": "Back to top",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "notFound": "This page could not be found.",
+    "returnHome": "Back to home"
+  },
+  "home": {
+    "title": "Contemporary Mediterranean interiors",
+    "description": "TRAVER STUDI. Contemporary Mediterranean interiors. Calm, light, material and home. Discover our studio and the Mallorca Street project.",
+    "eyebrow": "Contemporary Mediterranean interiors",
+    "heading": "Spaces for a slower way of living.",
+    "intro": "Creating homes and spaces that make everyday life better through honest design, light and a thoughtful use of materials.",
+    "projectNote": "A closer look at space, from everyday living to the smallest detail.",
+    "servicesTitle": "Design begins with materials."
+  },
+  "studio": {
+    "title": "The studio",
+    "description": "TRAVER STUDI, an interior design studio founded in Barcelona in 2026. A fresh perspective rooted in Instaltraver’s family history since 1976.",
+    "heading": "Your space begins with listening.",
+    "lead": "An interior design studio in Barcelona. A personal approach to every project.",
+    "paragraphs": [
+      "TRAVER STUDI was founded in 2026 with a simple idea: every space begins with the people who live in it. We listen to your needs and shape a distinctive project around the way you want to live.",
+      "From the earliest ideas through to the work on site, we help define your project, guide your choice of materials and finishes, and make sure each decision has a clear purpose.",
+      "If you are looking for a studio that listens, advises and guides you, you are in the right place."
+    ],
+    "manifesto": [
+      "We design with calm.",
+      "We seek out light.",
+      "We respect materials.",
+      "We create a sense of home."
+    ],
+    "values": [
+      {
+        "title": "Calm",
+        "text": "Balance, visual quiet and proportion."
+      },
+      {
+        "title": "Light",
+        "text": "Clarity, openness and a natural atmosphere."
+      },
+      {
+        "title": "Material",
+        "text": "Stone, linen, wood and honest textures."
+      },
+      {
+        "title": "Home",
+        "text": "Spaces designed to be lived in."
+      }
+    ],
+    "imageCaption": "Mallorca Street · kitchen detail",
+    "aboutTitle": "About us",
+    "aboutHeading": "A fresh perspective. A shared history.",
+    "aboutIntro": "TRAVER STUDI is a brand of Instaltraver. A new studio with a family history that began in 1976.",
+    "timeline": [
+      {
+        "year": "1976",
+        "title": "Our beginnings",
+        "text": "Jorge Traver Bellido and Margarita Hartelsberger Rolón establish Instaltraver in Barcelona. Starting as a neighbourhood plumbing and electrical business, the company soon takes on its first renovation projects."
+      },
+      {
+        "year": "2019",
+        "title": "An eye for interiors",
+        "text": "Nadia Traver joins after completing her interior design studies, bringing a new sensitivity to spatial design and the choice of materials and finishes."
+      },
+      {
+        "year": "2022",
+        "title": "Design meets technical expertise",
+        "text": "Instaltraver S.L. is established, and Jordi Traver, son of the founders, joins the company. His engineering background strengthens the technical expertise behind its building services work."
+      },
+      {
+        "year": "2026",
+        "title": "TRAVER STUDI is born",
+        "text": "After years of renovations increasingly shaped by interior design, TRAVER STUDI is launched as a dedicated studio. It operates alongside Instaltraver, which focuses on building services: two specialisms with a shared history and experience."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "description": "SOS advice, interior design, complete projects and DELTA kitchen design. Discover how TRAVER STUDI can help with your space.",
+    "heading": "From an idea to your space.",
+    "lead": "Four ways to work together, wherever you are in your project.",
+    "notice": "",
+    "items": [
+      {
+        "title": "SOS · An expert perspective",
+        "text": "A focused advice session to help you find clarity and make decisions. Whether a renovation is already under way, a layout is not working or you need help choosing finishes, we review the situation with you and offer professional guidance.",
+        "details": [
+          "Review of your questions, plans or photographs.",
+          "Guidance on layouts, materials and finishes.",
+          "Recommendations to help you take the next step."
+        ],
+        "cta": "Ask about SOS"
+      },
+      {
+        "title": "Interior design",
+        "text": "We shape your space around the way you want to live. Starting with your needs, we develop a proposal for the layout, materials, lighting and furniture that brings function and character together.",
+        "details": [
+          "Understanding your needs and the existing space.",
+          "Layout proposal and design concept.",
+          "Advice on materials, finishes, lighting and furniture."
+        ],
+        "cta": "Design my space"
+      },
+      {
+        "title": "The complete project",
+        "text": "We stay with you from the first ideas through to the work on site. Interior design and the technical needs of your project are considered together, so that decisions throughout the renovation follow a shared vision.",
+        "details": [
+          "Development of the interior design project.",
+          "Selection of materials and finishes.",
+          "Coordination of building services requirements.",
+          "Guidance and follow-up during the works."
+        ],
+        "cta": "Discuss my project"
+      },
+      {
+        "title": "DELTA kitchens",
+        "text": "We design your DELTA kitchen around your habits, your space and the way you cook. Layout, storage and finishes come together in a kitchen that is comfortable to use and feels at home within the rest of your interior.",
+        "details": [
+          "Layout planning and working zones.",
+          "Cabinetry proposals and storage solutions.",
+          "Choice of finishes and design advice."
+        ],
+        "cta": "Design my kitchen"
+      }
+    ],
+    "scope": "We agree the scope and budget with you before work begins."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Visit us at Sant Antoni Maria Claret, 209, Barcelona. Contact TRAVER STUDI at hola@traverstudi.cat or by phone and WhatsApp: +34 93 436 85 15.",
+    "heading": "Let’s talk about your space.",
+    "lead": "Tell us what you have in mind. We are here to listen.",
+    "notice": "",
+    "footerHeading": "Your space.\nLet’s imagine it together.",
+    "footerLink": "Let’s talk",
+    "footerNote": "Interior design · Barcelona",
+    "mapLabel": "Get directions",
+    "whatsappLabel": "Message us on WhatsApp",
+    "form": {
+      "title": "Tell us about your project.",
+      "intro": "Complete your enquiry and open it in your email app to send it to hola@traverstudi.cat.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "service": "How can we help?",
+      "select": "Choose an option",
+      "message": "Your idea, your needs, your space",
+      "submit": "Prepare email",
+      "copy": "Copy enquiry",
+      "privacy": "This page does not send your enquiry. You choose when to send it from your email app.",
+      "ready": "Your enquiry is ready. Send it from your email app. If the app does not open, copy the enquiry and email us directly.",
+      "copied": "Enquiry copied. Paste it into an email addressed to hola@traverstudi.cat.",
+      "copyError": "The enquiry could not be copied. Select your message text or email us directly.",
+      "subject": "Project enquiry · TRAVER STUDI"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Projects by TRAVER STUDI. Explore the photographic gallery of Mallorca Street.",
+    "intro": "From the space to the detail.",
+    "count": "Project",
+    "missingDescription": "The project description is awaiting content."
+  }
+}

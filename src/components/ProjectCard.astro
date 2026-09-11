@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Photo from './Photo.astro';
+import {copy,route,type Lang} from '../utils/i18n';
+interface Props { project: CollectionEntry<'projects'>; lang: Lang; index?: number; }
+const {project,lang,index=0}=Astro.props;const p=project.data;const t=p.translations[lang];
+---
+<a class="project-card" href={route(lang,'projects',t.slug)}>
+  <div class="project-card-image"><Photo src={p.cover} alt={p.coverAlt[lang]} sizes="(max-width: 767px) 92vw, 45vw"/><span class="image-action" aria-hidden="true">↗</span></div>
+  <div class="project-card-caption"><span class="label">{String(index+1).padStart(2,'0')}</span><h2>{t.title}</h2><span class="label">{p.year || copy[lang].ui.viewProject}{p.year && t.location ? ` · ${t.location}` : ''}</span></div>
+</a>

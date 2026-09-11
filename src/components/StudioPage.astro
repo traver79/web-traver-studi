@@ -1,0 +1,9 @@
+---
+import Photo from './Photo.astro';import studioImage from '../assets/projects/calle-mallorca/_M0A8090.jpg';import {copy,type Lang} from '../utils/i18n';
+interface Props {lang:Lang;}const {lang}=Astro.props;const t=copy[lang];
+---
+<section class="page-head section-pad"><p class="label">{t.studio.title}</p><h1 class="display-large">{t.studio.heading}</h1></section>
+<section class="studio-intro section-pad"><figure><Photo src={studioImage} alt={t.studio.imageCaption} eager/><figcaption class="label">{t.studio.imageCaption}</figcaption></figure><div><h2 class="display-small">{t.studio.lead}</h2>{t.studio.paragraphs.map(p=><p class="body-large">{p}</p>)}</div></section>
+<section class="about section-pad"><div class="section-heading"><p class="label">{t.studio.aboutTitle}</p><h2 class="display-medium">{t.studio.aboutHeading}</h2></div><p class="body-large about-intro">{t.studio.aboutIntro}</p><div class="timeline">{t.studio.timeline.map(item=><article><span class="timeline-year">{item.year}</span><div><h3>{item.title}</h3><p>{item.text}</p></div></article>)}</div></section>
+<section class="manifesto section-pad"><div class="label">TRAVER STUDI</div><h2 class="display-medium">{t.studio.manifesto.map(line=><span>{line}</span>)}</h2></section>
+<section class="values section-pad">{t.studio.values.map((v,i)=><article><span class="label">0{i+1}</span><h2>{v.title}</h2><p>{v.text}</p></article>)}</section>

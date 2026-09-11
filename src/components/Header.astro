@@ -1,0 +1,24 @@
+---
+import LanguageSelector from './LanguageSelector.astro';
+import BrandWordmark from './BrandWordmark.astro';
+import { copy, route, type Lang, type PageKey } from '../utils/i18n';
+interface Props { lang: Lang; page: PageKey; links: Record<Lang,string>; }
+const { lang, page, links } = Astro.props;
+const t=copy[lang];
+const pages=['projects','studio','services','contact'] as const;
+---
+<a class="skip-link" href="#main">{t.ui.skip}</a>
+<header class="site-header">
+  <a class="brand-logo" href={route(lang)} aria-label={`TRAVER STUDI · ${t.nav.home}`}><BrandWordmark/></a>
+  <nav class="desktop-nav" aria-label={t.ui.menu}>
+    {pages.map(p=><a class="nav-link" href={route(lang,p)} aria-current={page===p?'page':undefined}>{t.nav[p]}</a>)}
+  </nav>
+  <div class="header-controls"><LanguageSelector lang={lang} links={links}/><button class="menu-toggle label" data-menu-open aria-expanded="false" aria-controls="mobile-menu">{t.ui.menu}<span aria-hidden="true" class="menu-line"></span></button></div>
+</header>
+<dialog id="mobile-menu" class="menu-dialog" aria-label={t.ui.menu}>
+  <div class="menu-top"><a class="brand-logo" href={route(lang)} aria-label={`TRAVER STUDI · ${t.nav.home}`}><BrandWordmark/></a><button class="label close-button" data-menu-close>{t.ui.close}<span aria-hidden="true">×</span></button></div>
+  <nav class="menu-links" aria-label={t.ui.menu}>
+    {pages.map((p,i)=><a href={route(lang,p)} aria-current={page===p?'page':undefined}><span class="label">0{i+1}</span>{t.nav[p]}</a>)}
+  </nav>
+  <div class="menu-bottom"><span class="label">{t.contact.footerNote}</span><LanguageSelector lang={lang} links={links}/></div>
+</dialog>
