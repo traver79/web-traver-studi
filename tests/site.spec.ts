@@ -69,6 +69,8 @@ test('accessibility and screenshots for every page template',async({page})=>{
    // Scroll through each page to exercise lazy images and reveal effects.
    await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=600){scrollTo({top:y,behavior:'instant'});await new Promise(r=>setTimeout(r,70))}scrollTo({top:0,behavior:'instant'})});
    await page.waitForFunction(()=>[...document.querySelectorAll('img')].filter(x=>!x.closest('dialog')).every(x=>x.complete&&x.naturalWidth>0));
+   // Audit the final colors, not a partially transparent frame of a reveal.
+   await page.waitForFunction(()=>[...document.querySelectorAll('[data-reveal].is-visible')].every(x=>getComputedStyle(x).opacity==='1'));
    expect(await page.locator('img').evaluateAll(xs=>xs.filter(x=>!x.closest('dialog')).every(x=>(x as HTMLImageElement).complete&&(x as HTMLImageElement).naturalWidth>0))).toBe(true);
    const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();expect(results.violations,`${path} @ ${width}`).toEqual([]);
    await page.screenshot({path:`.work/screenshots/es-${i}-${width}.png`,fullPage:true});
