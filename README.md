@@ -6,7 +6,7 @@ Repositorio: https://github.com/traver79/web-traver-studi
 
 URL prevista de publicación: https://traver79.github.io/web-traver-studi/
 
-**Estado de publicación:** el repositorio es privado. La API de GitHub ha rechazado activar Pages con `422: Your current plan does not support GitHub Pages for this repository`. La URL anterior no debe considerarse publicada hasta habilitar Pages con un plan compatible o autorizar que este repositorio pase a público. No se cambia su visibilidad automáticamente.
+**Publicación:** repositorio público con autorización del propietario y GitHub Pages configurado mediante GitHub Actions. Cada push a `main` valida y despliega la web. Consultar Actions para conocer el resultado del último despliegue.
 
 ## Requisitos y puesta en marcha
 

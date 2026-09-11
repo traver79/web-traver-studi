@@ -11,7 +11,7 @@ Se trasladan composición editorial, titulares amplios, navegación discreta, es
 ## Identidad y contenido
 
 - Paleta `#656440` y `#FFF9F2` del PNG, contrastada con SVG/PDF; prevalece sobre la paleta conceptual del PowerPoint.
-- SVG copiados sin modificar trazados, proporciones ni colores, también en cabecera y menú. INTERIORISME pertenece al logo y se conserva en los tres idiomas.
+- SVG originales copiados intactos. Cabecera y menú usan BrandWordmark, que referencia los grupos vectoriales originales del nombre e INTERIORISME y omite el círculo exterior para mejorar la lectura a pequeño tamaño. Verde sobre crema y crema sobre verde. Los sellos completos se conservan en intro, home y pie.
 - TRAVER STUDI es el nombre definitivo; no se utiliza la denominación antigua TRAVER STUDIO del manual.
 - Inter Tight Variable es la sans serif ligera propuesta con autorización del usuario. Autoalojada, licencia OFL; no hay descargas de Google Fonts en runtime. Nunca se usa para reconstruir el logo.
 - Estudio y trayectoria se redactan a partir de los textos suministrados y sus hechos. Claims del manual de 26 diapositivas en Home y manifiesto.

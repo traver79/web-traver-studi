@@ -24,7 +24,7 @@ Se releyó todo el material después de que el usuario guardara sus cambios del 
 4. Crear Instagram de TRAVER STUDI y proporcionar la URL.
 5. El formulario prepara un email o copia la consulta; para envío directo se necesita conectar un servicio real.
 6. Información legal adaptada a la nueva web antes del lanzamiento comercial.
-7. Habilitar GitHub Pages: el plan actual rechaza activarlo con el repositorio privado. El workflow está preparado.
+7. GitHub Pages está habilitado; el propietario ha autorizado hacer público el repositorio para publicar con su plan actual.
 
 ## Proyectos de ejemplo
 
