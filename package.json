@@ -11,7 +11,10 @@
     "check": "astro check",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "test": "playwright test"
+    "test": "playwright test",
+    "landing:build": "node landing/build.mjs",
+    "landing:preview": "node landing/preview.mjs",
+    "landing:test": "playwright test --config landing/playwright.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/inter-tight": "5.3.0",

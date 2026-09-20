@@ -1,3 +1,11 @@
+# TRAVER STUDI — landing temporal (rama aislada)
+
+**Para revisar y generar la landing, consultar [LANDING-TEMPORAL.md](LANDING-TEMPORAL.md).**
+Vista previa: `node landing/build.mjs` y `node landing/preview.mjs`.
+La entrega estática queda en `dist/landing/`. No está publicada.
+
+La documentación que sigue corresponde a la web en desarrollo conservada en `main`.
+
 # TRAVER STUDI — WEB V0.1
 
 Web corporativa estática en español, catalán e inglés, construida con **Astro 7.3.2**, TypeScript y CSS. Home, Proyectos, ficha de proyecto, Estudio, Servicios y Contacto. No utiliza CMS, SPA, React, backend ni servicios de traducción en runtime.

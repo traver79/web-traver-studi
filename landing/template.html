@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="{{lang}}" data-auto-language="{{auto}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f2">
+  <meta name="description" content="{{description}}">
+  <title>{{title}} — Traver Studi</title>
+  <link rel="icon" href="{{base}}assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="{{base}}assets/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{base}}style.css">
+  <script type="module" src="{{base}}client.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">{{skip}}</a>
+  <div class="page">
+    <header class="header">
+      <svg class="wordmark" viewBox="210 820 1620 555" role="img" aria-label="Traver Studi · Interiorisme">
+        <use href="{{base}}assets/logo.svg#traver-studi"></use>
+        <use href="{{base}}assets/logo.svg#interiorisme"></use>
+      </svg>
+      <nav aria-label="{{selector}}">
+        {{navigation}}
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="message" aria-live="polite" aria-atomic="true">
+        <h1>{{title}}</h1>
+        <p class="description">{{description}}</p>
+        <a class="contact" href="mailto:{{email}}">
+          <span>{{contact}}</span>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+      <div class="seal" aria-hidden="true">
+        <img src="{{base}}assets/logo-inverse.svg" width="2048" height="2048" alt="">
+      </div>
+    </main>
+    <footer>
+      <a class="email" href="mailto:{{email}}">{{email}}</a>
+      <span>TRAVER STUDI <span class="footer-dot" aria-hidden="true">·</span> INTERIORISME</span>
+    </footer>
+  </div>
+</body>
+</html>
+
