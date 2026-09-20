@@ -27,4 +27,3 @@ export const translations = {
     skip: 'Skip to content',
   },
 };
-

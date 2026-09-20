@@ -88,6 +88,9 @@ Revisión del 20/09/2026:
 - No hay webhooks configurados en el repositorio.
 - Push de esta rama sin merge ni pull request: no activa el workflow de
   publicación ni cambia la rama fuente de Pages.
+- Verificado después del primer push: cero ejecuciones de Actions para
+  `landing-temporal`; el HTML publicado conserva exactamente su hash SHA-256
+  anterior. `main` continúa limpio y en el mismo commit.
 - Se conserva la visibilidad pública. Solo se añaden código, documentación,
   la fuente local y su licencia OFL; los SVG proceden del repositorio.
   `.env*`, compilados, dependencias y pruebas visuales están ignorados.

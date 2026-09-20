@@ -36,4 +36,3 @@ document.querySelectorAll('[data-language]').forEach(link => {
     // Follow the real localized link: selection also works without JavaScript.
   });
 });
-

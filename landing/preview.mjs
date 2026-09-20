@@ -28,4 +28,3 @@ http.createServer(async (request, response) => {
     response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('404');
   }
 }).listen(port, '127.0.0.1', () => console.log('Vista previa: http://127.0.0.1:' + port + '/'));
-

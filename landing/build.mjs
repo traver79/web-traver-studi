@@ -31,4 +31,3 @@ for (const language of ['root', 'ca', 'es', 'en']) {
   await writeFile(path.join(directory, 'index.html'), html);
 }
 console.log('Landing estática generada en dist/landing. No se ha publicado.');
-
