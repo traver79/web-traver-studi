@@ -26,7 +26,10 @@ if (document.documentElement.dataset.autoLanguage === 'true') {
   let saved;
   try { saved = localStorage.getItem(storageKey); } catch {}
   const browser = (navigator.languages?.[0] || navigator.language || 'en').split('-')[0].toLowerCase();
-  applyLanguage(supported(saved) ? saved : supported(browser) ? browser : 'en');
+  // The domain sets the root language; explicit /ca/, /es/ and /en/ links stay selectable.
+  const hostname = window.location.hostname.toLowerCase().replace(/^www\./, '');
+  const domainLanguage = { 'traverstudi.cat': 'ca', 'traverstudi.es': 'es' }[hostname];
+  applyLanguage(domainLanguage || (supported(saved) ? saved : supported(browser) ? browser : 'en'));
 }
 document.querySelectorAll('[data-language]').forEach(link => {
   link.addEventListener('click', event => {
