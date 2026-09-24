@@ -1,8 +1,0 @@
----
-import { copy, route, type Lang } from '../utils/i18n';
-interface Props { lang: Lang; links?: Record<Lang, string>; }
-const { lang, links } = Astro.props;
----
-<nav class="languages" aria-label={copy[lang].ui.language}>
-  {(['ca','es','en'] as const).map((l,i) => <><span aria-hidden="true">{i ? '·' : ''}</span><a href={links?.[l] || route(l)} lang={l} hreflang={l} aria-current={l === lang ? 'true' : undefined} data-language={l}>{l.toUpperCase()}</a></>)}
-</nav>
