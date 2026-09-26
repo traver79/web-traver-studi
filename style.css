@@ -127,6 +127,7 @@ footer > span { font-size: 11px; letter-spacing: .12em; }
   .description { margin-top: 16px; margin-bottom: 20px; }
   .seal { width: min(34vw, 150px); justify-self: end; }
   footer { align-items: flex-start; flex-direction: column; gap: 4px; padding-block: 12px 16px; }
+  .footer-year { align-self: flex-end; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
