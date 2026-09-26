@@ -11,5 +11,5 @@ const {lang}=Astro.props;const t=copy[lang];
     <div><p class="label">TRAVER STUDI</p><nav aria-label={t.nav.studio}>{(['projects','studio','services','contact'] as const).map(p=><a href={route(lang,p)}>{t.nav[p]}</a>)}</nav></div>
     <div class="footer-contact"><p class="label">{t.nav.contact}</p><a href={`mailto:${contact.email}`}>{contact.email}</a><a href={`tel:${contact.phone.replace(/\s/g,'')}`}>{contact.phone}</a><a href={contact.whatsapp}>WhatsApp ↗</a><p>{contact.address}</p></div>
   </div>
-  <div class="footer-bottom"><span>© {new Date().getFullYear()} TRAVER STUDI</span><span>{t.contact.footerNote}</span><a href="#top">{t.ui.top} ↑</a></div>
+  <div class="footer-bottom"><span>© TRAVER STUDI</span><span>{t.contact.footerNote}</span><a href="#top">{t.ui.top} ↑</a><span>2026</span></div>
 </footer>
